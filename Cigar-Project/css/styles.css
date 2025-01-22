@@ -1,7 +1,7 @@
 /* fonts */
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700;900&display=swap");
 
 /* css vars */
 :root {
@@ -14,8 +14,8 @@
   --clr-grey-3: #adb5bd;
   --clr-black: #222;
   --clr-white: #fff;
-  --ff-primary: 'Lato', serif;
-  --ff-secondary: 'Playfair Display SC', serif;
+  --ff-primary: "Lato", serif;
+  --ff-secondary: "Playfair Display SC", serif;
   --transition: all 0.3s ease-in;
   --spacing: 0.5rem;
   --radius: 0.5rem;
@@ -116,7 +116,7 @@ p {
 
 .clearfix::after,
 .clearfix::before {
-  content: '';
+  content: "";
   clear: both;
   display: table;
 }
@@ -295,7 +295,7 @@ nav h4 {
   min-height: 100vh;
   /* background: var(--clr-primary-3); */
   background: linear-gradient(rgba(45, 0, 0, 0.4), rgba(0, 0, 0, 0.2)),
-    url('../images/main.jpg') center/cover no-repeat fixed;
+    url("../images/main.jpg") center/cover no-repeat fixed;
   position: relative;
   /* animation */
   overflow-x: hidden;
