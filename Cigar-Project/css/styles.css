@@ -5,15 +5,15 @@
 
 /* css vars */
 :root {
-  --clr-primary: #6a4225;
-  --clr-primary-light: #bf7b4a;
-  --clr-primary-3: #ddb892;
-  --clr-secondary: #f2dc5d;
+  --clr-primary: #131010;
+  --clr-primary-light: #543a14;
+  --clr-primary-3: #f0bb78;
+  --clr-secondary: #fff0dc;
   --clr-grey-1: #272829;
   --clr-grey-2: #6c757d;
   --clr-grey-3: #adb5bd;
   --clr-black: #222;
-  --clr-white: #fff;
+  --clr-white: #ffffff;
   --ff-primary: "Lato", serif;
   --ff-secondary: "Playfair Display SC", serif;
   --transition: all 0.3s ease-in;
@@ -208,7 +208,7 @@ p {
 /* navbar */
 .nav-btn {
   position: fixed;
-  color: var(--clr-primary-light);
+  color: var(--clr-primary-3);
   top: 5%;
   left: 5%;
   font-size: 3rem;
@@ -230,7 +230,7 @@ nav h4 {
   bottom: 0; */
   width: 40%;
   height: 40%;
-  background: var(--clr-primary-light);
+  background: var(--clr-primary-3);
 
   z-index: 2;
   box-shadow: 2px 0px 2px rgba(0, 0, 0, 0.4);
